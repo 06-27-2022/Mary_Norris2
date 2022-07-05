@@ -1,0 +1,93 @@
+
+public class GradingCalculator {
+	public static void main(String[] args) {
+		
+		int [] numberArray = {95, 85, 62, 40, 79};
+		
+		int math = 95;
+		if (math >= 90 && math <= 100) {
+			System.out.println('A');
+		}
+			else if (math >= 80 && math <= 89) {
+				System.out.println('B');
+			}
+				else if (math >= 70 && math <= 79) {
+					System.out.println('C');
+				}	
+					else if (math >= 60 && math <= 69) {
+						System.out.println('D');
+					}
+						else if (math <= 59) {
+							System.out.println('F');
+						}
+		
+		int english = 85;
+		if (english >= 90 && english <= 100) {
+			System.out.println('A');
+		}
+			else if (english >= 80 && english <= 89) {
+				System.out.println('B');
+			}
+				else if (english >= 70 && english <= 79) {
+					System.out.println('C');
+				}	
+					else if (english >= 60 && english <= 69) {
+						System.out.println('D');
+					}
+						else if (english <= 59) {
+							System.out.println('F');
+						}
+		
+		int science = 62;
+				if (science >= 90 && science <= 100) {
+					System.out.println('A');
+				}
+					else if (science >= 80 && science <= 89) {
+						System.out.println('B');
+					}
+						else if (science >= 70 && science <= 79) {
+							System.out.println('C');
+						}	
+							else if (science >= 60 && science <= 69) {
+								System.out.println('D');
+							}
+								else if (science <= 59) {
+									System.out.println('F');
+								}
+		
+		int history = 40;
+		if (history >= 90 && history <= 100) {
+			System.out.println('A');
+		}
+			else if (history >= 80 && history <= 89) {
+				System.out.println('B');
+			}
+				else if (history >= 70 && history <= 79) {
+					System.out.println('C');
+				}	
+					else if (history >= 60 && history <= 69) {
+						System.out.println('D');
+					}
+						else if (history <= 59) {
+							System.out.println('F');
+						}
+		
+		int art = 79;
+		if (art >= 90 && art <= 100) {
+			System.out.println('A');
+		}
+			else if (art >= 80 && art <= 89) {
+				System.out.println('B');
+			}
+				else if (art >= 70 && art <= 79) {
+					System.out.println('C');
+				}	
+					else if (art >= 60 && art <= 69) {
+						System.out.println('D');
+					}
+						else if (art <= 59) {
+							System.out.println('F');
+						}
+		
+	}
+}

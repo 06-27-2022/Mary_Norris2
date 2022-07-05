@@ -1,0 +1,29 @@
+package usingPackagesNow;
+
+public class SumofArray {
+	
+
+	
+	public static void main(String[] args) {
+   
+		int [] anyarray = new int[5];
+		anyarray[0] = 1;
+		anyarray[1] = 7;
+		anyarray[2] = 4;
+		anyarray[3] = 6;
+		anyarray[4] = 12;
+	
+		
+		int SumofAnyArray = (anyarray[0] + anyarray[1] + anyarray[2] + anyarray[3] + anyarray[4]);
+		
+		System.out.println(SumofAnyArray);
+		
+		anyarray[3] = 567;
+		
+		
+		System.out.println(SumofAnyArray);
+		
+		}
+	
+ 
+}
