@@ -1,0 +1,52 @@
+package CodingChallenges;
+
+
+public class EvenOrOdd {
+	
+	public static void main (String[] args) {
+		
+		int[] WhatNumber = new int[5];
+		
+		WhatNumber[0] = 34;
+		WhatNumber[1] = 27;
+		WhatNumber[2] = 310;
+		WhatNumber[3] = 23980;
+		WhatNumber[4] = 3;
+		
+		
+		for (int i=0; i<WhatNumber.length; i++);
+		
+		/*
+		 * int remainder = WhatNumber[i]%2;
+		 * 
+		 *I tried to enter this code to make the program more efficient, but 
+		 *'i' could not be resolved to a local variable. I tried many different
+		 *ways but the only result was more compilation errors.
+		 */
+		
+		
+		
+		int remainder = WhatNumber[0]%2;
+		int remainder2 = WhatNumber[1]%2;
+		int remainder3 = WhatNumber[2]%2;
+		int remainder4 = WhatNumber[3]%2;
+		int remainder5 = WhatNumber[4]%2;
+		
+		switch (remainder)cd  {
+		case 0:
+			System.out.println("Even");
+			break;
+		default: 
+			System.out.println("Odd");
+			break;
+			
+			
+			/*
+			 * Ideally my code would have only one switch statement that can
+			 * iterate over all 5 remainder values, but I struggled to 
+			 * successfully complete a code that printed out all five values
+			 * at once.
+			 */
+		}
+	}
+}	 
